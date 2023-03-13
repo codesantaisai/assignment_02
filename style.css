@@ -1,0 +1,420 @@
+/*Navbar Styles End*/
+.btn{
+    background-color:greenyellow;
+    color:black;
+    border-radius:  30px;
+}
+.btn:hover{
+    background-color: rgb(255, 162, 0);
+}
+.btn2:hover{
+    background-color: rgb(255, 162, 0);
+}
+
+
+.nav-link{
+    color:black;
+}
+.actives{
+    color:rgb(182, 25, 25);
+}
+
+/* .home{
+    color: orange;
+} */
+/*Navbar Styles End*/
+
+/*sectrion-2 start*/
+.btn2{
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10%;
+    
+}
+.sec1{
+    padding-left: 7%;
+    padding-top: 3%;
+    background-color:white;
+   
+    width:100%;
+    height: 350px;
+    color: green;
+}
+
+.img{
+    
+    width: 25%;
+    height:auto;
+    /* transform: translate(-70%,-09) */
+    margin-right: 7%;
+    
+}
+
+
+/*sectrion-2*/
+/*sectrion-3*/
+.sec2{
+    
+}
+
+.sec2{
+    padding-right: 100px;
+    padding-left: 1%;
+    margin-left: 800px;
+    margin-right: 45px;
+    text-align:justify;
+    
+}
+.para1{
+    padding: 0%;
+    padding-left: 1%;
+    margin-left: 800px;
+    margin-right: 550px;
+    text-align: justify;
+}
+.para2{
+    padding: 0%;
+    padding-left: 1%;
+    margin-left: 1000px;
+    margin-right: 400px;
+    transform: translate(80%,-118%);
+    text-align: justify;
+   
+}
+.img2{
+        width: 20%;
+        height:5%;
+        /* transform: translate(100%); */
+        padding-left:3% ;
+}
+.checkout{
+    text-align:center;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+} */
+/* .box{
+    padding: 10px;
+    opacity: 0.8;
+} */
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container1 > div {
+    text-align: center;
+    font-size: 30px;}
+
+.box:hover{   
+    opacity: 1;
+    transition: .9s;
+}
+.team{
+    text-align: center;
+}
+.team-images{
+    justify-content: center;
+}
+.girl{
+    padding: 2px;
+    width: 250px;
+    margin-top: 30px;
+}
+.footer{
+    background-color: rgb(237, 250, 237);
+   margin-bottom: 0px;
+   margin-top: 0px;
+   padding-bottom: 0%;
+   padding-top: 0%;
+}
+.footer1{
+    padding-left: 10%; 
+    margin-bottom: auto;
+    transform: translateY(10px);
+    
+}
+.footer2{
+    padding-left: 80%; 
+    transform: translateY(-8px);
+}
+.list{
+    list-style: none;
+    
+    
+}
+.logos{
+    width: 80px;
+}
+.socialmedia{
+    transform:translateX(10px);
+}
+
+.clientsheading{
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+.brandlogo{
+    width:100px;
+    border-radius: 1%;
+}
+.navbar-brand{
+    transform: translateX(-300px);
+    font-size:xx-large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    text-align: justify;
+    font-size: 20px;}
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 10px;
+        padding: 10px;
+      }
+      
+      .grid-container2 > div {
+        text-align: left;
+        font-size: 1px;
+      }
+
+      .grid-container3 {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 0px;
+      }
+      
+      .grid-container3 > div {
+        text-align: justify;
+        font-size: 20px;
+      }
+      #card{
+        margin-left: 24%;
+        text-align: justify;
+        font-size: 20px;
+      }
+      .example-para{
+        text-align: justify;
+        margin-left: 50px;
+      }
+      .grid-container3 > div img {
+        margin-left: 2%;
+        margin-top: 2%;    
+
+      }
+      #productnav{
+     margin-left: 80%;
+        
+      }
+      .list2{
+
+        list-style-type: none;
+      }
+      .gallery{
+        border-radius: 5%;
+      }
+      
+
+      /* Slideshow container */
+    .slideshow-container {
+    max-width: 350px;
+    position: relative;
+    margin: auto;
+    }
+
+    /* The dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+    
+  .grid-containerc {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    /* background-color: white; */
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  /* contact page styles starts here */
+  .contactDetails{
+    text-align: left;
+  }
+
+
+
+  /* map starts here */
+  /*style*/
+/* Set the size of the div element that contains the map */
+#map {
+  height: 600px; /* The height is 400 pixels */
+  width: 1000px; /* The width is the width of the web page */
+}
+
+/* services page codes starts here */
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}

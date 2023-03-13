@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<style>
+.grid-containermap {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align: center;">Drop Us a Mail</h1>
+<div class="grid-containermap">
+  <div class="grid-item" id="map">
+    
+      
+  </div>
+  <div class="grid-item">
+    <p><strong>BC, a latin professor at Hampden-sydney college in verginia</strong> </p>
+    <address class="contactDetails">
+        Phone: <strong>+91 976885083</strong><br>
+        Email: <strong>example@gmail.com</strong><br>
+        Fax:<strong>+91 12345678</strong>
+    </address>
+    <h2>Want to Know More?? Drop us Mail</h2>
+    <form action="" onsubmit="return validate()">
+        <input type="text" placeholder="FirstName" id="fullname">
+        <p id="para1"></p>
+        <input type="text" placeholder="LastName" id="lastname">
+        <p id="para3"></p>
+        <br>
+        <input type="text" placeholder="Email" id="valid-email">
+        <p id="para2"></p>
+        <input type="text" placeholder="ContactNumber" id="telephone">
+        <p id="para4"></p>
+        <br>
+        <textarea placeholder="Your Message Here.." id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" value="Send">
+    </form>
+  </div>
+</div>
+<source src="bootstrap/js/bootstrap.bundle.min.js">
+<script src="formvalidation.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbBTsw3a0xr_gDG89PMwd99dpxoE-y45A&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+</body>
+</html>
+
+
